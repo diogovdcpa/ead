@@ -2,10 +2,10 @@
 namespace app\controllers;
 use app\core\Controller;
 
-class AulaController extends Controller{
+class CursoController extends Controller{
     
    public function index(){
-       $dados["view"] = "Aula/aula";
+       $dados["view"] = "Curso/curso";
        $this->load("template",$dados);
    } 
 }
